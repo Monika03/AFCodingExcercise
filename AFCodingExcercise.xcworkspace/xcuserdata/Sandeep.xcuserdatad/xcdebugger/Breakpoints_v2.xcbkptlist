@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AFCodingExcerciseTests/NetworkingModelTests.m"
+            timestampString = "486413222.179157"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "@implementation NetworkingModelTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AFCodingExcerciseTests/NetworkingModelTests.m"
+            timestampString = "486414092.385322"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "-givenSuccessBlockReturnsPromotionsObjects"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NetworkingModelTests givenSuccessBlockReturnsPromotionsObjects]"
+                  moduleName = "AFCodingExcerciseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Sandeep/Desktop/AFCodingExcercise/AFCodingExcerciseTests/NetworkingModelTests.m"
+                  timestampString = "486413680.459303"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "614">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__65-[NetworkingModelTests givenSuccessBlockReturnsPromotionsObjects]_block_invoke"
+                  moduleName = "AFCodingExcerciseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Sandeep/Desktop/AFCodingExcercise/AFCodingExcerciseTests/NetworkingModelTests.m"
+                  timestampString = "486413680.459498"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__65-[NetworkingModelTests givenSuccessBlockReturnsPromotionsObjects]_block_invoke"
+                  moduleName = "AFCodingExcerciseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Sandeep/Desktop/AFCodingExcercise/AFCodingExcerciseTests/NetworkingModelTests.m"
+                  timestampString = "486413680.459631"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "62">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_"
+                  moduleName = "AFCodingExcerciseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Sandeep/Desktop/AFCodingExcercise/AFCodingExcerciseTests/NetworkingModelTests.m"
+                  timestampString = "486413680.459721"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "51">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_"
+                  moduleName = "AFCodingExcerciseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Sandeep/Desktop/AFCodingExcercise/AFCodingExcerciseTests/NetworkingModelTests.m"
+                  timestampString = "486413680.459817"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AFCodingExcercise/NetworkingModel.m"
+            timestampString = "486413585.032537"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "-getPromotionsFromURL:successBlock:failureBlock:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

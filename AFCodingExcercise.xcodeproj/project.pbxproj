@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C649A5F1CFE01B800BF14DB /* PromotionsCellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C649A5E1CFE01B800BF14DB /* PromotionsCellsTests.m */; };
+		2C649A601CFE042000BF14DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE5DEB11CF90AD10085A4D6 /* Main.storyboard */; };
+		2C649A631CFE0F7800BF14DB /* NetworkingModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C649A621CFE0F7800BF14DB /* NetworkingModelTests.m */; };
+		2C649A671CFE173200BF14DB /* PromotionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C649A661CFE173200BF14DB /* PromotionsTests.m */; };
+		2CE5DEAA1CF90AD10085A4D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5DEA91CF90AD10085A4D6 /* main.m */; };
+		2CE5DEAD1CF90AD10085A4D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5DEAC1CF90AD10085A4D6 /* AppDelegate.m */; };
+		2CE5DEB01CF90AD10085A4D6 /* PromotionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5DEAF1CF90AD10085A4D6 /* PromotionsController.m */; };
+		2CE5DEB31CF90AD10085A4D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE5DEB11CF90AD10085A4D6 /* Main.storyboard */; };
+		2CE5DEB51CF90AD10085A4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE5DEB41CF90AD10085A4D6 /* Assets.xcassets */; };
+		2CE5DEB81CF90AD10085A4D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE5DEB61CF90AD10085A4D6 /* LaunchScreen.storyboard */; };
+		2CE5DEC31CF90AD10085A4D6 /* AFCodingExcerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5DEC21CF90AD10085A4D6 /* AFCodingExcerciseTests.m */; };
+		2CE5DED61CF90B630085A4D6 /* NetworkingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5DED51CF90B630085A4D6 /* NetworkingModel.m */; };
+		2CE5DED91CF9116F0085A4D6 /* Promotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5DED81CF9116F0085A4D6 /* Promotion.m */; };
+		2CE5DEDD1CF915D50085A4D6 /* PromotionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5DEDC1CF915D50085A4D6 /* PromotionsCell.m */; };
+		2CE5DEE01CF91DD70085A4D6 /* PromotionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5DEDF1CF91DD70085A4D6 /* PromotionDetailViewController.m */; };
+		66C88DBA1CFB2D670030BFA9 /* PromotionsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C88DB91CFB2D670030BFA9 /* PromotionsWebViewController.m */; };
+		66C88DC31CFB35F90030BFA9 /* PromotionsShopNowButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C88DC21CFB35F90030BFA9 /* PromotionsShopNowButtonModel.m */; };
+		758B1D35A62B27167F868503 /* libPods-AFCodingExcerciseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 746A14076495DF6586E959B1 /* libPods-AFCodingExcerciseTests.a */; };
+		FB06F4242BA19B5DB85B0D22 /* libPods-AFCodingExcercise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5535043B018A02C9C3FE4BCA /* libPods-AFCodingExcercise.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CE5DEBF1CF90AD10085A4D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CE5DE9D1CF90AD10085A4D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CE5DEA41CF90AD10085A4D6;
+			remoteInfo = AFCodingExcercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C649A5E1CFE01B800BF14DB /* PromotionsCellsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromotionsCellsTests.m; sourceTree = "<group>"; };
+		2C649A621CFE0F7800BF14DB /* NetworkingModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingModelTests.m; sourceTree = "<group>"; };
+		2C649A661CFE173200BF14DB /* PromotionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromotionsTests.m; sourceTree = "<group>"; };
+		2CE5DEA51CF90AD10085A4D6 /* AFCodingExcercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFCodingExcercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE5DEA91CF90AD10085A4D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CE5DEAB1CF90AD10085A4D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CE5DEAC1CF90AD10085A4D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CE5DEAE1CF90AD10085A4D6 /* PromotionsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromotionsController.h; sourceTree = "<group>"; };
+		2CE5DEAF1CF90AD10085A4D6 /* PromotionsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromotionsController.m; sourceTree = "<group>"; };
+		2CE5DEB21CF90AD10085A4D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CE5DEB41CF90AD10085A4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CE5DEB71CF90AD10085A4D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CE5DEB91CF90AD10085A4D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE5DEBE1CF90AD10085A4D6 /* AFCodingExcerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFCodingExcerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE5DEC21CF90AD10085A4D6 /* AFCodingExcerciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFCodingExcerciseTests.m; sourceTree = "<group>"; };
+		2CE5DEC41CF90AD10085A4D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE5DED41CF90B630085A4D6 /* NetworkingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingModel.h; sourceTree = "<group>"; };
+		2CE5DED51CF90B630085A4D6 /* NetworkingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingModel.m; sourceTree = "<group>"; };
+		2CE5DED71CF9116F0085A4D6 /* Promotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Promotion.h; sourceTree = "<group>"; };
+		2CE5DED81CF9116F0085A4D6 /* Promotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Promotion.m; sourceTree = "<group>"; };
+		2CE5DEDB1CF915D50085A4D6 /* PromotionsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromotionsCell.h; sourceTree = "<group>"; };
+		2CE5DEDC1CF915D50085A4D6 /* PromotionsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromotionsCell.m; sourceTree = "<group>"; };
+		2CE5DEDE1CF91DD70085A4D6 /* PromotionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromotionDetailViewController.h; sourceTree = "<group>"; };
+		2CE5DEDF1CF91DD70085A4D6 /* PromotionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromotionDetailViewController.m; sourceTree = "<group>"; };
+		5535043B018A02C9C3FE4BCA /* libPods-AFCodingExcercise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFCodingExcercise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7E4062CC400EC7839507AE /* Pods-AFCodingExcerciseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFCodingExcerciseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFCodingExcerciseTests/Pods-AFCodingExcerciseTests.release.xcconfig"; sourceTree = "<group>"; };
+		66C88DB81CFB2D670030BFA9 /* PromotionsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromotionsWebViewController.h; sourceTree = "<group>"; };
+		66C88DB91CFB2D670030BFA9 /* PromotionsWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromotionsWebViewController.m; sourceTree = "<group>"; };
+		66C88DC11CFB35F90030BFA9 /* PromotionsShopNowButtonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromotionsShopNowButtonModel.h; sourceTree = "<group>"; };
+		66C88DC21CFB35F90030BFA9 /* PromotionsShopNowButtonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromotionsShopNowButtonModel.m; sourceTree = "<group>"; };
+		746A14076495DF6586E959B1 /* libPods-AFCodingExcerciseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFCodingExcerciseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A07FBC40D5185239FB97F5 /* Pods-AFCodingExcercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFCodingExcercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFCodingExcercise/Pods-AFCodingExcercise.release.xcconfig"; sourceTree = "<group>"; };
+		AAECEC86E58D647F9B257226 /* Pods-AFCodingExcercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFCodingExcercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFCodingExcercise/Pods-AFCodingExcercise.debug.xcconfig"; sourceTree = "<group>"; };
+		AF54F59244A76B09E279D65A /* Pods-AFCodingExcerciseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFCodingExcerciseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFCodingExcerciseTests/Pods-AFCodingExcerciseTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CE5DEA21CF90AD10085A4D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB06F4242BA19B5DB85B0D22 /* libPods-AFCodingExcercise.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE5DEBB1CF90AD10085A4D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758B1D35A62B27167F868503 /* libPods-AFCodingExcerciseTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C649A5D1CFE019400BF14DB /* UITableViewCellsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C649A5E1CFE01B800BF14DB /* PromotionsCellsTests.m */,
+			);
+			name = UITableViewCellsTests;
+			sourceTree = "<group>";
+		};
+		2C649A611CFE0F6600BF14DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C649A621CFE0F7800BF14DB /* NetworkingModelTests.m */,
+				2C649A661CFE173200BF14DB /* PromotionsTests.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2CE5DE9C1CF90AD10085A4D6 = {
+			isa = PBXGroup;
+			children = (
+				2CE5DEA71CF90AD10085A4D6 /* AFCodingExcercise */,
+				2CE5DEC11CF90AD10085A4D6 /* AFCodingExcerciseTests */,
+				2CE5DEA61CF90AD10085A4D6 /* Products */,
+				741E5B102C474D6CB64887C5 /* Pods */,
+				48FE7595AC4603294B646BE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2CE5DEA61CF90AD10085A4D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5DEA51CF90AD10085A4D6 /* AFCodingExcercise.app */,
+				2CE5DEBE1CF90AD10085A4D6 /* AFCodingExcerciseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CE5DEA71CF90AD10085A4D6 /* AFCodingExcercise */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5DEDA1CF915C20085A4D6 /* UITableviewCells */,
+				2CE5DED31CF90B520085A4D6 /* Models */,
+				2CE5DECD1CF90B0D0085A4D6 /* AppDelegate */,
+				2CE5DECF1CF90B1F0085A4D6 /* Resources */,
+				2CE5DEA81CF90AD10085A4D6 /* Supporting Files */,
+				2CE5DECE1CF90B160085A4D6 /* ViewController */,
+			);
+			path = AFCodingExcercise;
+			sourceTree = "<group>";
+		};
+		2CE5DEA81CF90AD10085A4D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5DEA91CF90AD10085A4D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CE5DEC11CF90AD10085A4D6 /* AFCodingExcerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C649A611CFE0F6600BF14DB /* Models */,
+				2C649A5D1CFE019400BF14DB /* UITableViewCellsTests */,
+				2CE5DEC21CF90AD10085A4D6 /* AFCodingExcerciseTests.m */,
+				2CE5DEC41CF90AD10085A4D6 /* Info.plist */,
+			);
+			path = AFCodingExcerciseTests;
+			sourceTree = "<group>";
+		};
+		2CE5DECD1CF90B0D0085A4D6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5DEAB1CF90AD10085A4D6 /* AppDelegate.h */,
+				2CE5DEAC1CF90AD10085A4D6 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2CE5DECE1CF90B160085A4D6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5DEAE1CF90AD10085A4D6 /* PromotionsController.h */,
+				2CE5DEAF1CF90AD10085A4D6 /* PromotionsController.m */,
+				2CE5DEDE1CF91DD70085A4D6 /* PromotionDetailViewController.h */,
+				2CE5DEDF1CF91DD70085A4D6 /* PromotionDetailViewController.m */,
+				66C88DB81CFB2D670030BFA9 /* PromotionsWebViewController.h */,
+				66C88DB91CFB2D670030BFA9 /* PromotionsWebViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		2CE5DECF1CF90B1F0085A4D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5DED21CF90B3F0085A4D6 /* plist */,
+				2CE5DED11CF90B320085A4D6 /* Assets */,
+				2CE5DED01CF90B280085A4D6 /* Storyboards */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2CE5DED01CF90B280085A4D6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5DEB11CF90AD10085A4D6 /* Main.storyboard */,
+				2CE5DEB61CF90AD10085A4D6 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		2CE5DED11CF90B320085A4D6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5DEB41CF90AD10085A4D6 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		2CE5DED21CF90B3F0085A4D6 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5DEB91CF90AD10085A4D6 /* Info.plist */,
+			);
+			name = plist;
+			sourceTree = "<group>";
+		};
+		2CE5DED31CF90B520085A4D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5DED41CF90B630085A4D6 /* NetworkingModel.h */,
+				2CE5DED51CF90B630085A4D6 /* NetworkingModel.m */,
+				2CE5DED71CF9116F0085A4D6 /* Promotion.h */,
+				2CE5DED81CF9116F0085A4D6 /* Promotion.m */,
+				66C88DC11CFB35F90030BFA9 /* PromotionsShopNowButtonModel.h */,
+				66C88DC21CFB35F90030BFA9 /* PromotionsShopNowButtonModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2CE5DEDA1CF915C20085A4D6 /* UITableviewCells */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5DEDB1CF915D50085A4D6 /* PromotionsCell.h */,
+				2CE5DEDC1CF915D50085A4D6 /* PromotionsCell.m */,
+			);
+			name = UITableviewCells;
+			sourceTree = "<group>";
+		};
+		48FE7595AC4603294B646BE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5535043B018A02C9C3FE4BCA /* libPods-AFCodingExcercise.a */,
+				746A14076495DF6586E959B1 /* libPods-AFCodingExcerciseTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		741E5B102C474D6CB64887C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAECEC86E58D647F9B257226 /* Pods-AFCodingExcercise.debug.xcconfig */,
+				86A07FBC40D5185239FB97F5 /* Pods-AFCodingExcercise.release.xcconfig */,
+				AF54F59244A76B09E279D65A /* Pods-AFCodingExcerciseTests.debug.xcconfig */,
+				5A7E4062CC400EC7839507AE /* Pods-AFCodingExcerciseTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CE5DEA41CF90AD10085A4D6 /* AFCodingExcercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE5DEC71CF90AD10085A4D6 /* Build configuration list for PBXNativeTarget "AFCodingExcercise" */;
+			buildPhases = (
+				3E8458362905B9077F36035B /* Check Pods Manifest.lock */,
+				2CE5DEA11CF90AD10085A4D6 /* Sources */,
+				2CE5DEA21CF90AD10085A4D6 /* Frameworks */,
+				2CE5DEA31CF90AD10085A4D6 /* Resources */,
+				2BB74749B5893917637CA628 /* Embed Pods Frameworks */,
+				5A2A7F8B934338647607BE59 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFCodingExcercise;
+			productName = AFCodingExcercise;
+			productReference = 2CE5DEA51CF90AD10085A4D6 /* AFCodingExcercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CE5DEBD1CF90AD10085A4D6 /* AFCodingExcerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE5DECA1CF90AD10085A4D6 /* Build configuration list for PBXNativeTarget "AFCodingExcerciseTests" */;
+			buildPhases = (
+				087827A6895052148D00A0B3 /* Check Pods Manifest.lock */,
+				2CE5DEBA1CF90AD10085A4D6 /* Sources */,
+				2CE5DEBB1CF90AD10085A4D6 /* Frameworks */,
+				2CE5DEBC1CF90AD10085A4D6 /* Resources */,
+				5C5BAA66104FCA038A9CAA17 /* Embed Pods Frameworks */,
+				233267217AB784F3575B22A4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CE5DEC01CF90AD10085A4D6 /* PBXTargetDependency */,
+			);
+			name = AFCodingExcerciseTests;
+			productName = AFCodingExcerciseTests;
+			productReference = 2CE5DEBE1CF90AD10085A4D6 /* AFCodingExcerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CE5DE9D1CF90AD10085A4D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mounika;
+				TargetAttributes = {
+					2CE5DEA41CF90AD10085A4D6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2CE5DEBD1CF90AD10085A4D6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2CE5DEA41CF90AD10085A4D6;
+					};
+				};
+			};
+			buildConfigurationList = 2CE5DEA01CF90AD10085A4D6 /* Build configuration list for PBXProject "AFCodingExcercise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CE5DE9C1CF90AD10085A4D6;
+			productRefGroup = 2CE5DEA61CF90AD10085A4D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CE5DEA41CF90AD10085A4D6 /* AFCodingExcercise */,
+				2CE5DEBD1CF90AD10085A4D6 /* AFCodingExcerciseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CE5DEA31CF90AD10085A4D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE5DEB81CF90AD10085A4D6 /* LaunchScreen.storyboard in Resources */,
+				2CE5DEB51CF90AD10085A4D6 /* Assets.xcassets in Resources */,
+				2CE5DEB31CF90AD10085A4D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE5DEBC1CF90AD10085A4D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C649A601CFE042000BF14DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		087827A6895052148D00A0B3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		233267217AB784F3575B22A4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFCodingExcerciseTests/Pods-AFCodingExcerciseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BB74749B5893917637CA628 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFCodingExcercise/Pods-AFCodingExcercise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E8458362905B9077F36035B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A2A7F8B934338647607BE59 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFCodingExcercise/Pods-AFCodingExcercise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C5BAA66104FCA038A9CAA17 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFCodingExcerciseTests/Pods-AFCodingExcerciseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CE5DEA11CF90AD10085A4D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE5DEB01CF90AD10085A4D6 /* PromotionsController.m in Sources */,
+				2CE5DED61CF90B630085A4D6 /* NetworkingModel.m in Sources */,
+				2CE5DEE01CF91DD70085A4D6 /* PromotionDetailViewController.m in Sources */,
+				2CE5DEAD1CF90AD10085A4D6 /* AppDelegate.m in Sources */,
+				2CE5DEDD1CF915D50085A4D6 /* PromotionsCell.m in Sources */,
+				2CE5DEAA1CF90AD10085A4D6 /* main.m in Sources */,
+				2CE5DED91CF9116F0085A4D6 /* Promotion.m in Sources */,
+				66C88DBA1CFB2D670030BFA9 /* PromotionsWebViewController.m in Sources */,
+				66C88DC31CFB35F90030BFA9 /* PromotionsShopNowButtonModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE5DEBA1CF90AD10085A4D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE5DEC31CF90AD10085A4D6 /* AFCodingExcerciseTests.m in Sources */,
+				2C649A671CFE173200BF14DB /* PromotionsTests.m in Sources */,
+				2C649A631CFE0F7800BF14DB /* NetworkingModelTests.m in Sources */,
+				2C649A5F1CFE01B800BF14DB /* PromotionsCellsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CE5DEC01CF90AD10085A4D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CE5DEA41CF90AD10085A4D6 /* AFCodingExcercise */;
+			targetProxy = 2CE5DEBF1CF90AD10085A4D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CE5DEB11CF90AD10085A4D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CE5DEB21CF90AD10085A4D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CE5DEB61CF90AD10085A4D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CE5DEB71CF90AD10085A4D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CE5DEC51CF90AD10085A4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CE5DEC61CF90AD10085A4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CE5DEC81CF90AD10085A4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAECEC86E58D647F9B257226 /* Pods-AFCodingExcercise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AFCodingExcercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mounika.AFCodingExcercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CE5DEC91CF90AD10085A4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A07FBC40D5185239FB97F5 /* Pods-AFCodingExcercise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AFCodingExcercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mounika.AFCodingExcercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CE5DECB1CF90AD10085A4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF54F59244A76B09E279D65A /* Pods-AFCodingExcerciseTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AFCodingExcerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mounika.AFCodingExcerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFCodingExcercise.app/AFCodingExcercise";
+			};
+			name = Debug;
+		};
+		2CE5DECC1CF90AD10085A4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A7E4062CC400EC7839507AE /* Pods-AFCodingExcerciseTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AFCodingExcerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mounika.AFCodingExcerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFCodingExcercise.app/AFCodingExcercise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE5DEA01CF90AD10085A4D6 /* Build configuration list for PBXProject "AFCodingExcercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE5DEC51CF90AD10085A4D6 /* Debug */,
+				2CE5DEC61CF90AD10085A4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE5DEC71CF90AD10085A4D6 /* Build configuration list for PBXNativeTarget "AFCodingExcercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE5DEC81CF90AD10085A4D6 /* Debug */,
+				2CE5DEC91CF90AD10085A4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE5DECA1CF90AD10085A4D6 /* Build configuration list for PBXNativeTarget "AFCodingExcerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE5DECB1CF90AD10085A4D6 /* Debug */,
+				2CE5DECC1CF90AD10085A4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CE5DE9D1CF90AD10085A4D6 /* Project object */;
+}
